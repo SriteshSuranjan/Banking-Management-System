@@ -23,6 +23,13 @@ Follow these steps to set up and run the project on your local machine:
 - 'database/': Includes SQL scripts for database setup.
 - 'screenshots/': Screenshots of the application in action.
 
+# Architecture
+The system is structured using the MVC pattern, which helps in separating concerns and making the code more modular and maintainable:
+
+- Model: Handles the business logic and data management.
+- View: Manages the user interface and presentation of data.
+- Controller: Handles user inputs, interacts with the model, and updates the view.
+
 # 📦 Features
 - User Registration & Login
 - Account Creation
